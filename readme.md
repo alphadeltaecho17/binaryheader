@@ -1,5 +1,6 @@
 <h2>Binary Header Animation</h2>
-<p>using HTML5 Canvas and JavaScript</P>
+<p>using HTML5 Canvas and JavaScript </P>
+<a href="https://rawgit.com/alphadeltaecho17/binaryheader/master/index.html" target="_blank">View</a>
 
 <h3>Konsep</h3>
 <ol>
