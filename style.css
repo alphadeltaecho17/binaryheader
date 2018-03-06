@@ -1,0 +1,73 @@
+.intro {
+  font-family: 'Jura', sans-serif;
+  display: table;
+  width: 100%;
+  min-height: 100%;
+  padding: 100px 0 100px;
+  text-align: center;
+  color: #3C3636;
+  /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: absolute;
+
+  z-index: 2;
+}
+
+.intro  #intro{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 100%;
+  height: 100%;*/
+  z-index: 0;
+  /*background: #148F60;*/
+
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+.intro img{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    /*padding: 0;
+    /*padding-bottom: 100px;*/
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+.stickyfooter{
+      position: fixed;
+    z-index: 100;
+    bottom: 0px;
+}
+.stickyfooter p{
+  padding: 5px 10px;
+      background-color: #f1f1f1;
+    color: #959595;
+  margin: 0px;
+}
+.stickyfooter a{
+  color: #00a885;
+}
